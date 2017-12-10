@@ -1,0 +1,99 @@
+.top-header {
+    background-color: #3BB85D;
+}
+
+.home-in span {
+    color: #3BB85D;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.nav.navbar-nav li:hover,
+.nav.navbar-nav li.active {
+    background: #3BB85D;
+}
+
+.nav.navbar-nav li:hover a,
+.nav.navbar-nav li.active a {
+    color: #ffffff;
+}
+
+#filters li span.active {
+    background: #3BB85D;
+    color: #fff;
+}
+
+.portfolio .label-bg {
+    background: #3BB85D;
+}
+
+.call-to-action {
+    background-color: #3BB85D;
+}
+
+.testi-quote {
+    color: #3BB85D;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #3BB85D;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: #3BB85D;
+}
+
+footer {
+    border-top: 6px solid #3BB85D;
+}
+
+.btn-default {
+    background-color: #3BB85D;
+    border-color: #3BB85D;
+}
+
+.btn-default:hover {
+    background-color: #0e8b30;
+    color: #fff;
+    border-color: #3BB85D;
+}
+
+.btn-default.focus, .btn-default:focus {
+    background-color: #3BB85D;
+    border-color: #3BB85D;
+    color: #fff;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default.focus:active, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
+    background-color: #3BB85D;
+    border-color: #3BB85D;
+    color: #fff;
+}
+
+.ft-icon i {
+    color: #3BB85D;
+}
+
+.subtitle::after {
+    background: #3BB85D;
+}
+
+.progress-bar {
+    background-color: #3BB85D;
+}
+
+.btn-nobg {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.service-in section:hover .sericon-holder {
+    color: #3BB85D;
+}
+
+.sk-cube-grid .sk-cube {
+    background-color: #3BB85D;
+}
