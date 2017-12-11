@@ -27,7 +27,7 @@
 	<!-- Theme color CSS -->
 	<link type="text/css" href="css/theme/blue.css" rel="stylesheet">
 	<!-- Recaptcha -->
-	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<script src='www.google.com/recaptcha/api.js'></script>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -59,7 +59,6 @@
 				<div class="col-xs-12 col-md-6">
 					<ul class="top-contact-detail">
 						<li><!-- <i class="fa fa-paper-plane" aria-hidden="true"></i>  -->dikagamess@gmail.com</li>
-						<li><a class="gaTracked link_phone-number-header no-decorations" href="tel:+1-715-441-3948"><i class="fa fa-phone" aria-hidden="true"></i> (715) 441-3948</a></li>
 						<!-- <li><i class="fa fa-skype" aria-hidden="true"></i> myskypeid</li> -->
 					</ul>
 				</div>
@@ -67,8 +66,18 @@
 					<ul class="top-social-detail">
 						<li>
 							<div class="top-social-in">
-								<a target="_blank" href="https://www.linkedin.com/in/jackgustaf/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+								<a target="_blank" href="www.youtube.com/dikagames"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 
+							</div>
+						</li>
+						<li>
+							<div class="top-social-in">
+								<a target="_blank" href="www.facebook.com/Dikagamess"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</div>
+						</li>
+						<li>
+							<div class="top-social-in">
+								<a target="_blank" href="www.twitch.tv/dikazinho"><i class="fa fa-twitch" aria-hidden="true"></i></a>
 							</div>
 						</li>
 					</ul>
@@ -107,20 +116,42 @@
 <section id="about" class="about-section"><!-- About -->
 	<div class="container">
 		<div class="row">
-			<h2 class="subtitle">about me</h2>
+			<!-- <h2 class="subtitle">about the channel</h2> -->
+
+			<div class="col-xs-12 col-md-12">
+				<img src="images/Banner.jpg" alt="Dika Games Banner">
+			</div>
+			<!-- <div class="col-xs-12 col-md-8">
+
+				<p>Viciado em games desde pequeno, carioca da gema, 30 anos, curto principalmente games de estratégia e RPG em geral.
+
+				<br>Cronograma do Twitch:
+				<br>Segunda a sábado
+				<br>Horários:
+				<br>Segunda a sexta - 15:00 ás 22:00
+				<br>Sábados - 15:00 ás 21:00</p>
+			</div> -->
+		</div>
+	</div>
+</section>
+
+<section id="about" class="about-section"><!-- About -->
+	<div class="container">
+		<div class="row">
+			<h2 class="subtitle">about the channel</h2>
 
 			<div class="col-xs-12 col-md-4">
-				<img src="images/snow_monkey.jpg" alt="">
+				<img src="images/twitch_logo.png" alt="Twitch Logo">
 			</div>
 			<div class="col-xs-12 col-md-8">
 
 				<p>Viciado em games desde pequeno, carioca da gema, 30 anos, curto principalmente games de estratégia e RPG em geral.
 
-Cronograma do twitch:
-Segunda a sábado
-Horários:
-Segunda a sexta - 15:00 ás 22:00
-Sábados - 15:00 ás 21:00</p>
+				<br>Cronograma do Twitch:
+				<br>Segunda a sábado
+				<br>Horários:
+				<br>Segunda a sexta - 15:00 ás 22:00
+				<br>Sábados - 15:00 ás 21:00</p>
 			</div>
 		</div>
 	</div>
@@ -131,72 +162,134 @@ Sábados - 15:00 ás 21:00</p>
 <section id="services" class="services"><!-- services -->
 	<div class="container">
 		<div class="row">
-			<h2 class="subtitle">services</h2>
+		</div>
+		<div class="row">
+			<h2 class="subtitle">Serviços</h2>
+
+			<div style="text-align: center;" class="col-md-12">
+				<img src="images/Coach image.png" alt="Coach SW Image">
+			</div>
 
 			<div class="col-md-12">
 				<div class="service-in">
 					<section>
-						<div class="sericon-holder">
-							<i class="fa fa-linux" aria-hidden="true"></i>
-						</div>
-						<h4>linux server admin</h4>
+						<h4>Traço metas de evolução</h4>
 
-						<p>I spin up a new server from fresh and get it ready for your website. I'll install all of the necessary applications needed to get everything working, create an FTP user for you, and more upon request.</p>
+						<!-- <p>Traço metas de evolução.</p> -->
 					</section>
 					<section>
-						<div class="sericon-holder">
-							<i class="fa fa-html5" aria-hidden="true"></i>
-						</div>
-						<h4>front end development</h4>
+						<h4>Times de PvE em geral</h4>
 
-						<p>I can help make your website look up to date with current design and development practices. Responsive design will make it work for all sizes of screen!</p>
+						<p>ToA, HoH, Dungeons, Raids, Farmer</p>
 					</section>
 					<section>
-						<div class="sericon-holder">
-							<i class="fa fa-code" aria-hidden="true"></i>
-						</div>
-						<h4>backend development</h4>
+						<h4>Otimização de builds para seus times</h4>
 
-						<p>Back end web development is my specialty! I can create databases to connect to, call from external API's, or even make web tools that do stuff for you.</p>
+						<!-- <p>Back end web development is my specialty! I can create databases to connect to, call from external API's, or even make web tools that do stuff for you.</p> -->
 					</section>
 					<section>
-						<div class="sericon-holder">
-							<i class="fa fa-wordpress" aria-hidden="true"></i>
-						</div>
-						<h4>wordpress development</h4>
+						<h4>Conselho sobre seus próximos 6* e monstros a serem upados</h4>
 
-						<p>If you want a Wordpress site, I can set it up for you the proper way, with child themes, so that you won't accidently delete your website when you update. My role at a previous web hosting job was Wordpress Maintenance.</p>
+						<!-- <p>guild, siege, arena, RTA.</p> -->
+					</section>
+					<section>
+						<h4>Acompanhamento por um mês no Discord ou Whatsapp para tirar dúvidas</h4>
+
+						<!-- <p>guild, siege, arena, RTA.</p> -->
+					</section>
+					<section>
+						<h4>Gravo vídeo e faço live junto com você fazendo coach</h4>
+
+						<p>Opcional</p>
+					</section>
+					<section>
+						<h4>Ataque e defesa de PvP</h4>
+
+						<p>Guild, Siege, Arena, RTA.</p>
 					</section>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
 <!-- end of services -->
+
+
+<!-- <section id="about" class="about-section">
+	<div class="container">
+		<div class="row">
+			<h2 class="subtitle">about the channel</h2>
+
+			<div class="col-xs-12 col-md-4">
+				<img src="images/twitch_logo.png" alt="Twitch Logo">
+			</div>
+			<div class="col-xs-12 col-md-8">
+
+				<p>Para maiores informações sobre o coach visite nossa página do Facebook, ou mande um email no final da página!
+
+					<ul class="foot-social">
+						<li class="ft-in">
+							<a target="_blank" href="www.youtube.com/dikagames"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+						</li>
+						<li class="ft-in">
+							<a target="_blank" href="www.facebook.com/Dikagamess"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						</li>
+					</ul>
+					<youtube logo> <youtube link on the image> www.youtube.com/dikagames
+
+						Acompanhe nosso canal do youtube! Vídeos de tutoriais, summonadas, e lives!
+
+
+						<facebook logo> <facebook link on the image> www.facebook.com/Dikagamess/
+
+						Acompanhe notícias, quando a live está online, atualizações de conteúdo do canal na nossa página oficial no facebook!</p>
+					</div>
+				</div>
+	</div>
+</section> -->
+
 
 <footer id="contact"><!-- footer -->
 	<div class="container custom-container">
 		<div class="row">
-			<h2 class="subtitle">HIRE ME</h2>
+			<h2 class="subtitle">Contato</h2>
 
 			<div class="col-xs-12 col-md-6">
 				<div class="row">
 					<div class="col-xs-4 col-md-2">
-						<div class="ft-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+						<div class="ft-icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
 					</div>
 					<div class="col-xs-8 col-md-10">
-						<p>Cronograma do twitch:
-						<br>Segunda a sábado
-						<br>Horários:
-						<br>Segunda a sexta - 15:00 ás 22:00
-						<br>Sábados - 15:00 ás 21:00
+						<p><a>www.facebook.com/Dikagamess/</a></p>
 					</div>
 				</div>
 				<div class="foot-line"></div>
 				<div class="row">
 					<div class="col-xs-4 col-md-2">
-						<div class="ft-icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+						<div class="ft-icon"><i class="fa fa-youtube" aria-hidden="true"></i></div>
+					</div>
+					<div class="col-xs-8 col-md-10">
+						<p><a>www.youtube.com/dikagames</a></p>
+					</div>
+				</div>
+				<div class="foot-line"></div>
+				<div class="row">
+					<div class="col-xs-4 col-md-2">
+						<div class="ft-icon"><i class="fa fa-twitch" aria-hidden="true"></i></div>
+					</div>
+					<div class="col-xs-8 col-md-10">
+						<p>Cronograma do Twitch:
+						<br><a>www.twitch.tv/dikazinho</a>
+						<br>Segunda a sábado
+						<br>Horários:
+						<br>Segunda a sexta - 15:00 ás 22:00
+						<br>Sábados - 15:00 ás 21:00</p>
+					</div>
+				</div>
+				<div class="foot-line"></div>
+				<div class="row">
+					<div class="col-xs-4 col-md-2">
+						<div class="ft-icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
 					</div>
 					<div class="col-xs-8 col-md-10">
 						<p>dikagamess@gmail.com <br> www.ajacks.org/DikaGames</p>
@@ -238,9 +331,13 @@ Sábados - 15:00 ás 21:00</p>
 				<div class="foot-line"></div>
 				<ul class="foot-social">
 					<li class="ft-in">
-						<a target="_blank" href="https://www.linkedin.com/in/jackgustaf/">
-							<i class="fa fa-linkedin" aria-hidden="true"></i>
-						</a>
+						<a target="_blank" href="www.youtube.com/dikagames"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+					</li>
+					<li class="ft-in">
+						<a target="_blank" href="www.facebook.com/Dikagamess"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					</li>
+					<li class="ft-in">
+						<a target="_blank" href="www.twitch.tv/dikazinho"><i class="fa fa-twitch" aria-hidden="true"></i></a>
 					</li>
 				</ul>
 			</div>
