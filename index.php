@@ -26,8 +26,6 @@
 	<link type="text/css" href="css/main.css" rel="stylesheet">
 	<!-- Theme color CSS -->
 	<link type="text/css" href="css/theme/blue.css" rel="stylesheet">
-	<!-- Recaptcha -->
-	<script src='www.google.com/recaptcha/api.js'></script>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,7 +51,7 @@
 </div>
 
 <header><!--Header-->
-	<div class="top-header">
+	<div class="top-header" id="home">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-6">
@@ -66,18 +64,18 @@
 					<ul class="top-social-detail">
 						<li>
 							<div class="top-social-in">
-								<a target="_blank" href="www.youtube.com/dikagames"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+								<a target="_blank" href="http://www.youtube.com/dikagames"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 
 							</div>
 						</li>
 						<li>
 							<div class="top-social-in">
-								<a target="_blank" href="www.facebook.com/Dikagamess"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a target="_blank" href="http://www.facebook.com/Dikagamess"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 							</div>
 						</li>
 						<li>
 							<div class="top-social-in">
-								<a target="_blank" href="www.twitch.tv/dikazinho"><i class="fa fa-twitch" aria-hidden="true"></i></a>
+								<a target="_blank" href="http://www.twitch.tv/dikazinho"><i class="fa fa-twitch" aria-hidden="true"></i></a>
 							</div>
 						</li>
 					</ul>
@@ -95,7 +93,6 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<!-- <a class="navbar-brand" href="#"><img src="http://placehold.it/180x60" alt="izsu-logo"></a> -->
 		</div>
 		<div class="collapse navbar-collapse" id="mobile-collapse">
 			<ul class="nav navbar-nav navbar-right">
@@ -103,8 +100,6 @@
 				<li><a class="gaTracked nav-bar_about" href="#about">about me</a></li>
 				<li><a class="gaTracked nav-bar_services" href="#services">services</a></li>
 				<li><a class="gaTracked nav-bar_contact" href="#contact">contact</a></li>
-				<!-- <li><a href="#portfolios">portfolio</a></li> -->
-				<!-- <li><a href="#testimonial">testimonial</a></li> -->
 			</ul>
 		</div>
 	</div>
@@ -167,45 +162,38 @@
 			<h2 class="subtitle">Serviços</h2>
 
 			<div style="text-align: center;" class="col-md-12">
-				<img src="images/Coach image.png" alt="Coach SW Image">
+				<a href="#contact"><img src="images/Coach image.png" alt="Coach SW Image"></a>
 			</div>
 
 			<div class="col-md-12">
 				<div class="service-in">
 					<section>
 						<h4>Traço metas de evolução</h4>
-
-						<!-- <p>Traço metas de evolução.</p> -->
 					</section>
 					<section>
 						<h4>Times de PvE em geral</h4>
-
 						<p>ToA, HoH, Dungeons, Raids, Farmer</p>
 					</section>
 					<section>
 						<h4>Otimização de builds para seus times</h4>
-
-						<!-- <p>Back end web development is my specialty! I can create databases to connect to, call from external API's, or even make web tools that do stuff for you.</p> -->
 					</section>
 					<section>
 						<h4>Conselho sobre seus próximos 6* e monstros a serem upados</h4>
-
-						<!-- <p>guild, siege, arena, RTA.</p> -->
 					</section>
 					<section>
 						<h4>Acompanhamento por um mês no Discord ou Whatsapp para tirar dúvidas</h4>
-
-						<!-- <p>guild, siege, arena, RTA.</p> -->
 					</section>
 					<section>
 						<h4>Gravo vídeo e faço live junto com você fazendo coach</h4>
-
 						<p>Opcional</p>
 					</section>
 					<section>
 						<h4>Ataque e defesa de PvP</h4>
-
 						<p>Guild, Siege, Arena, RTA.</p>
+					</section>
+					<section>
+						<h4>Valor: R$100,00 o pacote completo. Para pacotes menores mande uma mensagem para combinar o preço</h4>
+						<p>Desconto de 20% para inscritos do canal do Twitch! E também parcelamos pelo pagseguro!</p>
 					</section>
 				</div>
 			</div>
@@ -213,41 +201,6 @@
 	</div>
 </section>
 <!-- end of services -->
-
-
-<!-- <section id="about" class="about-section">
-	<div class="container">
-		<div class="row">
-			<h2 class="subtitle">about the channel</h2>
-
-			<div class="col-xs-12 col-md-4">
-				<img src="images/twitch_logo.png" alt="Twitch Logo">
-			</div>
-			<div class="col-xs-12 col-md-8">
-
-				<p>Para maiores informações sobre o coach visite nossa página do Facebook, ou mande um email no final da página!
-
-					<ul class="foot-social">
-						<li class="ft-in">
-							<a target="_blank" href="www.youtube.com/dikagames"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-						</li>
-						<li class="ft-in">
-							<a target="_blank" href="www.facebook.com/Dikagamess"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-						</li>
-					</ul>
-					<youtube logo> <youtube link on the image> www.youtube.com/dikagames
-
-						Acompanhe nosso canal do youtube! Vídeos de tutoriais, summonadas, e lives!
-
-
-						<facebook logo> <facebook link on the image> www.facebook.com/Dikagamess/
-
-						Acompanhe notícias, quando a live está online, atualizações de conteúdo do canal na nossa página oficial no facebook!</p>
-					</div>
-				</div>
-	</div>
-</section> -->
-
 
 <footer id="contact"><!-- footer -->
 	<div class="container custom-container">
@@ -260,7 +213,7 @@
 						<div class="ft-icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
 					</div>
 					<div class="col-xs-8 col-md-10">
-						<p><a>www.facebook.com/Dikagamess/</a></p>
+						<p><a>http://www.facebook.com/Dikagamess/</a></p>
 					</div>
 				</div>
 				<div class="foot-line"></div>
@@ -269,7 +222,7 @@
 						<div class="ft-icon"><i class="fa fa-youtube" aria-hidden="true"></i></div>
 					</div>
 					<div class="col-xs-8 col-md-10">
-						<p><a>www.youtube.com/dikagames</a></p>
+						<p><a>http://www.youtube.com/dikagames</a></p>
 					</div>
 				</div>
 				<div class="foot-line"></div>
@@ -279,7 +232,7 @@
 					</div>
 					<div class="col-xs-8 col-md-10">
 						<p>Cronograma do Twitch:
-						<br><a>www.twitch.tv/dikazinho</a>
+						<br><a>http://www.twitch.tv/dikazinho</a>
 						<br>Segunda a sábado
 						<br>Horários:
 						<br>Segunda a sexta - 15:00 ás 22:00
@@ -292,7 +245,7 @@
 						<div class="ft-icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
 					</div>
 					<div class="col-xs-8 col-md-10">
-						<p>dikagamess@gmail.com <br> www.ajacks.org/DikaGames</p>
+						<p>dikagamess@gmail.com <br> http://www.ajacks.org/DikaGames</p>
 					</div>
 				</div>
 			</div>
@@ -331,13 +284,13 @@
 				<div class="foot-line"></div>
 				<ul class="foot-social">
 					<li class="ft-in">
-						<a target="_blank" href="www.youtube.com/dikagames"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+						<a target="_blank" href="http://www.youtube.com/dikagames"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 					</li>
 					<li class="ft-in">
-						<a target="_blank" href="www.facebook.com/Dikagamess"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a target="_blank" href="http://www.facebook.com/Dikagamess"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 					</li>
 					<li class="ft-in">
-						<a target="_blank" href="www.twitch.tv/dikazinho"><i class="fa fa-twitch" aria-hidden="true"></i></a>
+						<a target="_blank" href="http://www.twitch.tv/dikazinho"><i class="fa fa-twitch" aria-hidden="true"></i></a>
 					</li>
 				</ul>
 			</div>

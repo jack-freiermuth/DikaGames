@@ -124,7 +124,7 @@
         /* Contact Form Send
         –––––––––––––––––––––––––––––––––––––––––––––––––– */
         $('.send-message').on( 'click', function() {
-
+            console.log( "name: ", $('#name').val());
             $.ajax({
                 url: 'contact_email.php',
                 type: 'post',
@@ -132,8 +132,7 @@
                 data: {
                     'name':$('#name').val(),
                     'email':$('#email').val(),
-                    'message':$('#message').val(),
-                    'g-recaptcha-response':grecaptcha.getResponse()
+                    'message':$('#message').val()
                 },
                 success: function (data) {
                     $(".closebtn").parent().css('opacity', '100');
@@ -186,39 +185,6 @@
 
 })(jQuery);
 
-
-
-/* Google Analytics
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-$(".gaTracked").click(function() {
-	classList = this.className.split(/\s+/);
-	var gaTracked_index = 0;
-	for (i = 0; i < classList.length; i++) {
-		if( 'gaTracked' == classList[i] ) {
-			gaTracked_index = i;
-			break;
-		}
-	}
-
-	var event_split = classList[gaTracked_index+1].split("_");
-
-	console.log('event_split: ',event_split);
-	var eventCategory = capitalize_words(event_split[0].replace('-', ' '));
-	var eventLabel = capitalize_words(event_split[1].replace('-', ' '));
-
-	ga('send', {
-	  hitType: 'event',
-	  eventCategory: eventCategory,
-	  eventAction: 'click',
-	  eventLabel: eventLabel
-	});
-});
-
 function capitalize_words(str) {
  return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
-
-
-
-
